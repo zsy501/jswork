@@ -1,11 +1,5 @@
-
 let year = new Date().getFullYear()
-
-document.getElementById("al").innerHTML = calendar(year)
-
-function setcalendar(year){
-
-
-
-
+document.getElementById("cal").innerHTML=calendar(year)
+function setCalender(year){
+    
 }

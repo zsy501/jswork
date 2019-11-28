@@ -1,17 +1,19 @@
+
 <!DOCTYPE html>
 <html>
-<head>
-    <mata charset="UTF-8">
-    <title曾思源的万年历title>
-    <link rel="stytlesheet" type="text/css" href="index.css">
-</head>
-<body>
-    <div class="selyear">
-    <span class="preyear" id="preyear" data-year="s"" onclick=etcalendar(this.dataet.year)"></span>
-    <span id="curyear"></span>
-    <span class="nextyear" id="nextyear" data-year=""  onclick="setcalendar(this.dataset.yaer"></span>
-    <div class="box" id="cal"></div>
-</body>
-<script src="calendar.js"></script>
-<script src="index.js"></script>
+    <head>
+        <meta charset="utf-8">
+        <title>叶航宇的万年历</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div class="selyear">
+            <span class="preyear" id="preyear" data-year="" onclick="setCalender(this.dataset.year)"></span>
+            <span id="curyear"></span>
+            <span class="nextyear" id="nextyear" data-year="" onclick="setCalender(this.dataset.year)"></span>
+            <div class="box" id="cal"></div>
+        </div>
+        <script src="calender.js"></script>
+        <script src="index.js"></script>
+    </body>
 </html>
