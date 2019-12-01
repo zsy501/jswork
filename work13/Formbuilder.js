@@ -12,6 +12,7 @@
             html += builder.toHTML(item);
         }
         return '<table>' + html + '</table>';
+        
     };
     var builder = {
         toHTML:function(obj) {

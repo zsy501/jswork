@@ -12,4 +12,5 @@ var elements = [
         attr: { name: 'introduce', cols: '50', rows: '5' }},
     { tag: 'input', attr: { type: 'submit', value: '提交' } }
 ];
+
 document.getElementById('form').innerHTML = new FormBuilder(elements).create();
