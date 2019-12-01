@@ -1,6 +1,8 @@
 (function(window) {
     var FormBuilder = function (data) {
         this.data = data;
+
+        
     };
     FormBuilder.prototype.create = function () {
         var html = '';
