@@ -31,5 +31,5 @@ function disconnect(){
 
 function send(){
     let msg = document.getElementById('content').value
-    ws.send(msg)
+     ws.send(msg)
 }
